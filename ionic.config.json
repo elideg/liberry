@@ -1,0 +1,7 @@
+{
+  "name": "liberry",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
