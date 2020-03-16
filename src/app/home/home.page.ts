@@ -9,4 +9,8 @@ export class HomePage {
 
   constructor() {}
 
+  sayHi() {
+    console.log('hi');
+  }
+
 }

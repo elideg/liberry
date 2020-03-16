@@ -13,8 +13,43 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="container">
+    <!-- <ion-grid>
+      <ion-row>
+
+        <ion-col size="6">
+          ion-col
+        </ion-col>
+
+        <ion-col size="6">
+          ion-col
+        </ion-col>
+
+        <ion-col>
+          ion-col
+        </ion-col>
+
+        <ion-col>
+          ion-col
+        </ion-col>
+
+      </ion-row> -->
+    <!-- </ion-grid> -->
+    <ion-row>
+      <ion-col class="ion-align-self-start" (click)="sayHi()">
+        ion-col [start]
+      </ion-col>
+      <ion-col class="ion-align-self-center">
+        ion-col [center]
+      </ion-col>
+      <ion-col class="ion-align-self-end">
+        ion-col [end]
+      </ion-col>
+      <ion-col>
+        ion-col
+        <br>#
+        <br>#
+      </ion-col>
+    </ion-row>
   </div>
 </ion-content>
